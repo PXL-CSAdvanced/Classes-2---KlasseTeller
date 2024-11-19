@@ -6,7 +6,7 @@ Schrijf een klasse *Counter* waarmee je een teller kan simuleren.
 
 Eigenschappen:
 
--   Counter: geeft en ontvangt een waarde.
+-   CounterValue: geeft en ontvangt een waarde.
 
 Methods:
 
