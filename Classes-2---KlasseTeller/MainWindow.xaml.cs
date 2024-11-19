@@ -30,7 +30,7 @@ namespace Classes_2___KlasseTeller
 
         private void readButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(_counterObj._counter.ToString());
+            MessageBox.Show(_counterObj.CounterValue.ToString());
             // Of korter indien de Counter class een ToString() method heeft
             //MessageBox.Show(_counterObj.ToString());
         }

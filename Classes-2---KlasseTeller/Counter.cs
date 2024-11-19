@@ -8,26 +8,26 @@ namespace CS_Oefening
 {
     public class Counter
     {
-        public int _counter { get; set; }
+        public int CounterValue { get; set; }
 
         public void ResetCounter()
         {
-            _counter = 0;
+            CounterValue = 0;
         }
 
         public void IncreaseCounter()
         {
-            _counter++;
+            CounterValue++;
         }
 
         public void DecreaseCounter()
         {
-            _counter--;
+            CounterValue--;
         }
 
         public void Value(int value)
         {
-            _counter += value;
+            CounterValue += value;
         }
     }
 }
