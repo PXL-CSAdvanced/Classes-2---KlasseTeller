@@ -1,6 +1,6 @@
 # KlasseTeller
 
-Schrijf een klasse Teller waarmee je een teller kan simuleren.
+Schrijf een klasse *Counter* waarmee je een teller kan simuleren.
 
 ![](./media/image1.png)
 
@@ -10,13 +10,13 @@ Eigenschappen:
 
 Methods:
 
--   ResetTeller: zet de counter op 0.
+-   ResetCounter: zet de counter op 0.
 
--   VerhoogTeller: verhoogt counter met 1.
+-   IncreaseCounter: verhoogt counter met 1.
 
--   VerminderTeller: vermindert counter met 1.
+-   DecreaseCounter: vermindert counter met 1.
 
--   Waarde: verhoogt counter met opgegeven waarde.
+-   Value: verhoogt counter met opgegeven waarde.
 
 ![Afbeelding met tekst, schermopname, nummer, Lettertype Automatisch
 gegenereerde
