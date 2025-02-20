@@ -21,11 +21,13 @@ namespace Classes_2___KlasseTeller
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Counter _counterObj = new Counter();
+        private Counter _counterObj;
 
         public MainWindow()
         {
             InitializeComponent();
+
+            _counterObj = new Counter();
         }
 
         private void readButton_Click(object sender, RoutedEventArgs e)

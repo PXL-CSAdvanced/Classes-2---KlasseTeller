@@ -13,6 +13,6 @@
         <Button x:Name="resetButton" Content="Resetten teller naar 0" HorizontalAlignment="Left" Margin="35,126,0,0" VerticalAlignment="Top" Width="157" Click="resetButton_Click"/>
         <Button x:Name="valueButton" Content="Verhoog teller met" HorizontalAlignment="Left" Margin="35,158,0,0" VerticalAlignment="Top" Width="103" Click="valueButton_Click"/>
         <Button x:Name="endButton" Content="Einde" HorizontalAlignment="Left" Margin="35,189,0,0" VerticalAlignment="Top" Width="157" Click="endButton_Click"/>
-        <TextBox x:Name="valueTextBox" HorizontalAlignment="Left" Height="23" Margin="143,153,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="49" TextAlignment="Center" Background="DarkGray" BorderThickness="3" BorderBrush="Black"/>
+        <TextBox x:Name="valueTextBox" HorizontalAlignment="Left" Height="23" Margin="143,156,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="49" TextAlignment="Center" Background="DarkGray" BorderThickness="3" BorderBrush="Black"/>
     </Grid>
 </Window>
